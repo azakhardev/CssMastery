@@ -1,0 +1,8 @@
+//Partial sass file because of file name starting with underscore
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
