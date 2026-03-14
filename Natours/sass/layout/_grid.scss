@@ -2,8 +2,7 @@ $gutter-horizontal: 1rem;
 $gutter-vertical: 2rem;
 
 .row {
-  max-width: 1500px;
-  background-color: #eee;
+  max-width: 1140px;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -14,7 +13,6 @@ $gutter-vertical: 2rem;
 
   //Any class that starts with col-
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
@@ -23,7 +21,7 @@ $gutter-vertical: 2rem;
   }
 
   .col-1-of-2 {
-    width: calc((100%- $gutter-horizontal) / 2);
+    width: calc((100% - $gutter-horizontal) / 2);
   }
 
   .col-1-of-3 {
