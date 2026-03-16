@@ -1,3 +1,4 @@
+//RUN npm run compile:sass for auto generating styles
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
@@ -8,7 +9,9 @@
 @import "base/utillities";
 
 @import "components/button";
+@import "components/card";
 @import "components/composition";
+@import "components/feature-box";
 
 @import "layout/header";
 @import "layout/grid";

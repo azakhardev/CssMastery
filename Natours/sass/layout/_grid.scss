@@ -1,8 +1,5 @@
-$gutter-horizontal: 1rem;
-$gutter-vertical: 2rem;
-
 .row {
-  max-width: 1140px;
+  max-width: $grid-width;
   margin: 0 auto;
 
   &:not(:last-child) {
